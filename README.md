@@ -2,6 +2,5 @@
 
 
 
-
-
+#### Note: Payload.ico is a x64 calc shellcode
 
