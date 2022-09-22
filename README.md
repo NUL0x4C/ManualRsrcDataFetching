@@ -1,4 +1,4 @@
-# ManualRsrcDataFetching: one function to replace FindResource & LoadResource & LockResource & SizeofResource windows apis.
+## ManualRsrcDataFetching: one function to replace FindResource & LoadResource & LockResource & SizeofResource windows apis.
 
 
 
