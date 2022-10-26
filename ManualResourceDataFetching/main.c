@@ -41,10 +41,7 @@ BOOL GetResourceData(HMODULE hModule, WORD ResourceId, PVOID* ppResourceRawData,
 			*ppResourceRawData  = (PVOID)(pBaseAddr + (pResource->OffsetToData));
 			*psResourceDataSize = pResource->Size;
 
-			if (*ppResourceRawData != NULL && *psResourceDataSize != NULL)
-				return TRUE;
-			else
-				return FALSE;
+			break;
 		}
 
 	}
